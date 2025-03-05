@@ -5,7 +5,7 @@ Here's the organized todo list following the implementation sequence:
 - [x] Install zustand, wagmi, @farcaster/auth-kit (enables state/wallet/Farcaster features)
 - [x] Configure tsconfig.json strict: true + typeRoots (catches type errors early)
 - [x] Add 3-column responsive layout using CSS grid (foundation for all UI components)
-- [ ] Implement mobile-first fractional unit grid (ensures mobile layout integrity)
+- [x] Implement mobile-first fractional unit grid (ensures mobile layout integrity)
 - [ ] Update favicon.ico and metadata in head.tsx (brand customization)
 
 ### State Management
