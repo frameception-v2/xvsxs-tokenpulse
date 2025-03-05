@@ -10,7 +10,7 @@ Here's the organized todo list following the implementation sequence:
 - [x] Update metadata in head.tsx (requires file addition)
 
 ### State Management
-- [ ] Define TokenState interface with alerts/watchlist types (type-safe state foundation)
+- [x] Define TokenState interface with alerts/watchlist types (type-safe state foundation)
 - [ ] Create zustand store with persistence middleware (state survives page refreshes)
 - [ ] Implement addAlert/removeAlert store actions (user can manage price alerts)
 - [ ] Create filteredTokens selector with memoization (optimized render performance)
