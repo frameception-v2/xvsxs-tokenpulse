@@ -136,8 +136,12 @@ export default function Frame() {
         paddingRight: context?.client.safeAreaInsets?.right ?? 0,
       }}
     >
-      <div className="w-[300px] mx-auto py-2 px-2">
-        <ExampleCard />
+      <div className="w-full max-w-7xl mx-auto py-2 px-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <ExampleCard />
+          <ExampleCard />
+          <ExampleCard />
+        </div>
       </div>
     </div>
   );
