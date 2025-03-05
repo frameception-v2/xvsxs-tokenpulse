@@ -6,7 +6,8 @@ Here's the organized todo list following the implementation sequence:
 - [x] Configure tsconfig.json strict: true + typeRoots (catches type errors early)
 - [x] Add 3-column responsive layout using CSS grid (foundation for all UI components)
 - [x] Implement mobile-first fractional unit grid (ensures mobile layout integrity)
-- [ ] Update favicon.ico and metadata in head.tsx (brand customization)
+- [x] Update favicon.ico (brand customization)
+- [ ] Update metadata in head.tsx (requires file addition)
 
 ### State Management
 - [ ] Define TokenState interface with alerts/watchlist types (type-safe state foundation)
