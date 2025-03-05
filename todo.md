@@ -3,7 +3,7 @@ Here's the organized todo list following the implementation sequence:
 ### Phase 1: Core Infrastructure
 - [ ] Create Next.js 14 project with TypeScript template (user gets modern framework base)
 - [ ] Install zustand, wagmi, @farcaster/auth-kit (enables state/wallet/Farcaster features)
-- [ ] Configure tsconfig.json strict: true + typeRoots (catches type errors early)
+- [x] Configure tsconfig.json strict: true + typeRoots (catches type errors early)
 - [ ] Add 3-column responsive layout using CSS grid (foundation for all UI components)
 - [ ] Implement mobile-first fractional unit grid (ensures mobile layout integrity)
 - [ ] Update favicon.ico and metadata in head.tsx (brand customization)
